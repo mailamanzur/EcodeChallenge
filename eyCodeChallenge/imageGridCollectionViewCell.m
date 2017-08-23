@@ -19,6 +19,8 @@
 
 -(void)setup:(ImageObject *)object {
     
+    self.imageURL = object;
+    
     [self.imageView setImageFromURL:[NSURL URLWithString:[object setImageURLForSize:Thumbnail]]];
     
 }

@@ -13,6 +13,8 @@
 @interface imageGridCollectionViewCell : UICollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+    
+@property (strong, nonatomic)ImageObject *imageURL;
 
 +(NSString *)cellIdentifier;
 

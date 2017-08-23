@@ -12,7 +12,7 @@
 
 -(void)setImageFromURL:(NSURL *)url {
     
-    NSCache *memoryCache; //assume there is a memoryCache for images or videos
+    NSCache *memoryCache;
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
         
@@ -21,12 +21,12 @@
         
         if (downloadedData) {
             
-            // STORE IN FILESYSTEM
+            // Store in filesystem
             NSString* cachesDirectory = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0];
             NSString *file = [cachesDirectory stringByAppendingPathComponent:urlString];
             [downloadedData writeToFile:file atomically:YES];
             
-            // STORE IN MEMORY
+            // Store in memory
             [memoryCache setObject:downloadedData forKey:urlString];
         }
         

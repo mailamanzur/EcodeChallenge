@@ -21,6 +21,7 @@
 		0651E03A1F4D09340092030C /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E0391F4D09340092030C /* ApiNetworkingManager.m */; };
 		0651E03D1F4D0EB10092030C /* ImageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E03C1F4D0EB10092030C /* ImageBuilder.m */; };
 		0651E0411F4D0EFC0092030C /* ImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E0401F4D0EFC0092030C /* ImageObject.m */; };
+		06C7F0961F4DEB1300D59A39 /* ImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C7F0951F4DEB1300D59A39 /* ImageZoomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		0651E03C1F4D0EB10092030C /* ImageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBuilder.m; sourceTree = "<group>"; };
 		0651E03F1F4D0EFC0092030C /* ImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageObject.h; sourceTree = "<group>"; };
 		0651E0401F4D0EFC0092030C /* ImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageObject.m; sourceTree = "<group>"; };
+		06C7F0941F4DEB1300D59A39 /* ImageZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageZoomViewController.h; sourceTree = "<group>"; };
+		06C7F0951F4DEB1300D59A39 /* ImageZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageZoomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,8 @@
 			children = (
 				062273E11F4D202E0080790D /* ImageGridViewController.h */,
 				062273E21F4D202E0080790D /* ImageGridViewController.m */,
+				06C7F0941F4DEB1300D59A39 /* ImageZoomViewController.h */,
+				06C7F0951F4DEB1300D59A39 /* ImageZoomViewController.m */,
 			);
 			name = "Controllers ";
 			sourceTree = "<group>";
@@ -366,6 +371,7 @@
 				0651E0051F4CF2350092030C /* ViewController.m in Sources */,
 				0651E0021F4CF2350092030C /* AppDelegate.m in Sources */,
 				0651E03A1F4D09340092030C /* ApiNetworkingManager.m in Sources */,
+				06C7F0961F4DEB1300D59A39 /* ImageZoomViewController.m in Sources */,
 				0651DFFF1F4CF2350092030C /* main.m in Sources */,
 				0651E03D1F4D0EB10092030C /* ImageBuilder.m in Sources */,
 			);
