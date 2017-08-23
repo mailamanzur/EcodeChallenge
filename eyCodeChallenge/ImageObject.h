@@ -14,7 +14,7 @@ typedef NS_ENUM( NSUInteger, ImageType ) {
 };
 
 @interface ImageObject : NSObject
-@property(strong, nonatomic)NSString *imageUrl;
+@property(strong, nonatomic)NSString *uri;
 
 - (NSString *)setImageURLForSize:(ImageType)type;
 
