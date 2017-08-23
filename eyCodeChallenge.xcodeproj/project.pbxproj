@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062273E31F4D202E0080790D /* ImageGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062273E21F4D202E0080790D /* ImageGridViewController.m */; };
+		062273E61F4D232E0080790D /* imageGridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 062273E51F4D232E0080790D /* imageGridCollectionViewCell.m */; };
+		062273EA1F4D28160080790D /* UIImageView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 062273E91F4D28160080790D /* UIImageView+Utils.m */; };
 		0651DFFF1F4CF2350092030C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651DFFE1F4CF2350092030C /* main.m */; };
 		0651E0021F4CF2350092030C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E0011F4CF2350092030C /* AppDelegate.m */; };
 		0651E0051F4CF2350092030C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E0041F4CF2350092030C /* ViewController.m */; };
@@ -15,6 +18,9 @@
 		0651E00D1F4CF2350092030C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0651E00B1F4CF2350092030C /* LaunchScreen.storyboard */; };
 		0651E0181F4CF2350092030C /* eyCodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E0171F4CF2350092030C /* eyCodeChallengeTests.m */; };
 		0651E0231F4CF2350092030C /* eyCodeChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E0221F4CF2350092030C /* eyCodeChallengeUITests.m */; };
+		0651E03A1F4D09340092030C /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E0391F4D09340092030C /* ApiNetworkingManager.m */; };
+		0651E03D1F4D0EB10092030C /* ImageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E03C1F4D0EB10092030C /* ImageBuilder.m */; };
+		0651E0411F4D0EFC0092030C /* ImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651E0401F4D0EFC0092030C /* ImageObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062273E11F4D202E0080790D /* ImageGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGridViewController.h; sourceTree = "<group>"; };
+		062273E21F4D202E0080790D /* ImageGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGridViewController.m; sourceTree = "<group>"; };
+		062273E41F4D232E0080790D /* imageGridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageGridCollectionViewCell.h; sourceTree = "<group>"; };
+		062273E51F4D232E0080790D /* imageGridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageGridCollectionViewCell.m; sourceTree = "<group>"; };
+		062273E81F4D28160080790D /* UIImageView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Utils.h"; sourceTree = "<group>"; };
+		062273E91F4D28160080790D /* UIImageView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Utils.m"; sourceTree = "<group>"; };
 		0651DFFA1F4CF2350092030C /* eyCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eyCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0651DFFE1F4CF2350092030C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0651E0001F4CF2350092030C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,12 @@
 		0651E01E1F4CF2350092030C /* eyCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eyCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0651E0221F4CF2350092030C /* eyCodeChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eyCodeChallengeUITests.m; sourceTree = "<group>"; };
 		0651E0241F4CF2350092030C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0651E0381F4D09340092030C /* ApiNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiNetworkingManager.h; sourceTree = "<group>"; };
+		0651E0391F4D09340092030C /* ApiNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiNetworkingManager.m; sourceTree = "<group>"; };
+		0651E03B1F4D0EB10092030C /* ImageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBuilder.h; sourceTree = "<group>"; };
+		0651E03C1F4D0EB10092030C /* ImageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBuilder.m; sourceTree = "<group>"; };
+		0651E03F1F4D0EFC0092030C /* ImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageObject.h; sourceTree = "<group>"; };
+		0651E0401F4D0EFC0092030C /* ImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062273E71F4D27F10080790D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				062273E81F4D28160080790D /* UIImageView+Utils.h */,
+				062273E91F4D28160080790D /* UIImageView+Utils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		0651DFF11F4CF2350092030C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +128,11 @@
 		0651DFFC1F4CF2350092030C /* eyCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				062273E71F4D27F10080790D /* Utils */,
+				0651E0371F4D09150092030C /* Networking */,
+				0651E0341F4CFD8B0092030C /* Controllers  */,
+				0651E0331F4CFD840092030C /* Views */,
+				0651E0321F4CFD7D0092030C /* Models */,
 				0651E0001F4CF2350092030C /* AppDelegate.h */,
 				0651E0011F4CF2350092030C /* AppDelegate.m */,
 				0651E0031F4CF2350092030C /* ViewController.h */,
@@ -138,6 +170,60 @@
 				0651E0241F4CF2350092030C /* Info.plist */,
 			);
 			path = eyCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		0651E0321F4CFD7D0092030C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0651E03B1F4D0EB10092030C /* ImageBuilder.h */,
+				0651E03C1F4D0EB10092030C /* ImageBuilder.m */,
+				0651E03F1F4D0EFC0092030C /* ImageObject.h */,
+				0651E0401F4D0EFC0092030C /* ImageObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0651E0331F4CFD840092030C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0651E0361F4D04510092030C /* Cell */,
+				0651E0351F4D043E0092030C /* CollectionView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0651E0341F4CFD8B0092030C /* Controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				062273E11F4D202E0080790D /* ImageGridViewController.h */,
+				062273E21F4D202E0080790D /* ImageGridViewController.m */,
+			);
+			name = "Controllers ";
+			sourceTree = "<group>";
+		};
+		0651E0351F4D043E0092030C /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		0651E0361F4D04510092030C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				062273E41F4D232E0080790D /* imageGridCollectionViewCell.h */,
+				062273E51F4D232E0080790D /* imageGridCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		0651E0371F4D09150092030C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0651E0381F4D09340092030C /* ApiNetworkingManager.h */,
+				0651E0391F4D09340092030C /* ApiNetworkingManager.m */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +359,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062273EA1F4D28160080790D /* UIImageView+Utils.m in Sources */,
+				062273E61F4D232E0080790D /* imageGridCollectionViewCell.m in Sources */,
+				062273E31F4D202E0080790D /* ImageGridViewController.m in Sources */,
+				0651E0411F4D0EFC0092030C /* ImageObject.m in Sources */,
 				0651E0051F4CF2350092030C /* ViewController.m in Sources */,
 				0651E0021F4CF2350092030C /* AppDelegate.m in Sources */,
+				0651E03A1F4D09340092030C /* ApiNetworkingManager.m in Sources */,
 				0651DFFF1F4CF2350092030C /* main.m in Sources */,
+				0651E03D1F4D0EB10092030C /* ImageBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +601,7 @@
 				0651E0291F4CF2350092030C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0651E02A1F4CF2350092030C /* Build configuration list for PBXNativeTarget "eyCodeChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +610,7 @@
 				0651E02C1F4CF2350092030C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0651E02D1F4CF2350092030C /* Build configuration list for PBXNativeTarget "eyCodeChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +619,7 @@
 				0651E02F1F4CF2350092030C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
